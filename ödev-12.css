@@ -1,0 +1,815 @@
+*{
+    margin: 0;
+    text-emphasis: none;
+    list-style-type: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.sol-yon{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 250px;
+}
+.sol-yon:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.sol-sag:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.t{
+    position: relative;
+    left: 25px;
+    top: 22px;
+    font-size: 25px;
+}
+.sol-sag{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    top: 250px;
+}
+.sticky {
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+    transition: all 1s;
+  }   
+  
+  .sticky + .content {
+    padding-top: 40px;
+  }
+.border{
+  
+    width: 200px;
+    height: 60px;
+}
+.header{
+    width:100%;
+    text-align: center;
+}
+.header ul{
+    display: inline-block;
+    margin: 30px;
+}
+.header2{
+    width: 1200px;
+    margin: auto;
+    
+}
+.border-ust{
+    font-weight: bold;
+    float: left ;
+}
+.ıcon{
+    font-size: 45px;
+    float: left;
+    color: #ff5e15;
+}
+.logo{
+  position: relative;
+  bottom: 0px;
+}
+.ıconyazi{
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    right: 20px;
+    top:10px;
+   
+}
+.ıconyazi2{
+    position: relative;
+    left: 5px;
+}
+.ıconyazi-tel{
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    right: 10px;
+    top:10px;
+   
+}
+.ıconyazi2-tel{
+    position: relative;
+    right:45px;
+}
+.ıconyazi-mail{
+    font-weight: 600;
+    font-size: 15px;
+    position: relative;
+    right: 10px;
+    top:10px;
+   
+}
+.ıconyazi2-mail{
+    position: relative;
+    right:7px;
+}
+.navbar{
+    background-color:#ff5e15;
+    width:100%;
+}
+.navbar1{
+    background-color:#ff5e15;
+    width: 1020px;
+    margin: auto;
+}
+.navbar1 ul{
+    display: inline-block;
+    padding: 25px 15px;
+}
+.navbar1 a{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+.navbar1 ul li a:hover{
+    cursor: pointer;
+    color: black;
+    transition: all 0.5s;
+}
+.bodyy{
+  filter: brightness(50%);
+  background-image: url(mimar.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 650px;
+}
+.ortayazi{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 65%;
+}
+.ortayazi a{
+    display: block;
+}
+.ust{
+    position: relative;
+    top: 140px;
+}
+.alt1{
+    width: 100%;
+    height: 100px;
+}
+.alt1-iç{
+    width: 450px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.altorta{
+    width: 100%;
+    height: 350px;
+  
+}
+.adamlar{
+
+    width:1100px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+}
+.adam1 {
+    cursor: pointer;
+    background-size: 100%;
+    width:280px;
+    height: 200px;
+    border: 1px solid rgb(219, 219, 219) ;
+    margin: 50px 0px;
+    overflow: hidden;
+}
+
+.adam2{
+    cursor: pointer;
+    background-size: 230px 300px;
+    width:280px;
+    height: 200px;
+    border-top:1px solid rgb(219, 219, 219) ;
+    border-right:1px solid rgb(219, 219, 219) ;
+    border-bottom:1px solid rgb(219, 219, 219) ;
+    margin: 50px 0px;
+    overflow: hidden;
+}
+
+.adam3{
+    cursor: pointer;
+    background-size: 230px 300px;
+    width:280px;
+    height: 200px;
+    border-top:1px solid rgb(219, 219, 219) ;
+    border-right:1px solid rgb(219, 219, 219) ;
+    border-bottom:1px solid rgb(219, 219, 219) ;
+    margin: 50px 0px;
+    overflow: hidden;
+}
+
+.adam4{
+    cursor: pointer;
+    background-size: 230px 300px;
+    width:280px;
+    height: 200px;
+    border-top:1px solid rgb(219, 219, 219) ;
+    border-right:1px solid rgb(219, 219, 219) ;
+    border-bottom:1px solid rgb(219, 219, 219) ;
+    margin: 50px 0px;
+    overflow: hidden;
+}
+.adamıcon{
+  
+    width: 200px;
+    height: 80px;
+    margin: auto;
+}
+.adamyazı{
+   
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+.adamyazı h1{
+    font-size: 15px;
+    padding: 5px 0px;
+}
+.adamyazı a{
+    color: gray;
+}
+.sagust{
+    float: right;
+    color: gray;
+    font-size:14px;
+    padding: 10px 0px;
+}
+.ıconn{
+    font-size: 60px;
+    float: left;
+    color: rgb(255, 94, 0);
+}
+.alt3{
+ 
+    width: 100%;
+    height: 700px;
+   
+}
+.alt3-foto{
+    width: 500px;
+    position: relative;
+    bottom: 20px;
+}
+.alt3-iç{
+    background-color: #09162a;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    top: 100px;
+
+}
+.at{
+  
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    bottom:50px;
+    display: flex;
+}
+.ıconfoto{
+    width: 70px;
+    padding: 10px 0px;
+}
+span{
+    font-weight: bold;
+}
+.alt3-sag{
+   
+    width: 500px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    top: 140px;
+}
+.alt3-sag h1{
+    color: orangered;
+    font-size: 15px;
+    padding: 7px 0px;
+}
+.alt3-sag a{
+    color: white;
+    font-size:22px ;
+}
+.alt3-sag p{
+    color: rgb(121, 118, 118);
+    padding: 20px 0px;
+    font-size: 15px;
+}
+.alt3-sag2{
+ 
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    right: 0px;
+    top: 290px;
+}
+.b1{
+ 
+    width: 300px;
+    height: 70px;
+    display: flex;
+}
+.ft{
+    color: orangered;
+    font-size: 45px;
+}
+.ft2{
+    color: orangered;
+    font-size: 45px;
+}
+.ft3{
+    color: orangered;
+    font-size: 45px;
+}
+.yazi{
+    padding: 10px 10px;
+    color:white;
+}
+.text{
+    width: 1050px;
+    height: 680px;
+   
+    margin: auto;
+}
+.adfoto{
+    position: relative;
+    top: 12px;
+}
+.textsag{
+    width: 600px;
+    height: 680px;
+    float:right;
+}
+.textsag-ıc{
+    position: relative;
+    top: 90px;
+    
+    width: 100%;
+    height:440px;
+    background-color:#080404;
+}
+.textsag-ıc2{
+   
+   margin: auto;
+   margin: 40px 50px;
+   width: 490px;
+   height: 350px;
+  
+}
+.u1{
+    display: flex;
+    font-size: 20px;
+    padding: 50px 0px 5px 0px;
+}
+.textbox{
+    width: 100%;
+    height: 100px;
+    padding: 40px 0px;
+}
+.txt{ 
+  background-color: #080404;
+  margin: 22px 18px 0px 0px;
+  width: 220px;
+  height: 20px;
+  border-color: #797474;;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+}
+.txt2{
+    height: 112px;
+    width: 220px;
+    background-color: #080404;
+    border-color: #797474;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    color: white;
+    font-size: 13px;
+}
+.btn{
+    background-color:#ff5e15;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    width: 230px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    bottom: 16px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    transition: all 0.2s;
+}
+::placeholder{
+    color: white;
+    font-size: 13px;
+}
+.alt4{
+    width: 100%;
+    height: 600px;
+    background-color:#09162a;
+}
+.alt4-yazi{
+    width: 1100px;
+    margin: auto;
+    height: 220px;
+}
+.alt4-yazi a{
+    display: flex;
+}
+.y1{
+    color:orangered;
+    font-size: 15px;
+    padding: 80px 0px 8px 0px;
+}
+.y2{
+    color: white;
+    font-size: 20px;
+}
+.c{
+    cursor: pointer;
+}
+.alt4-fotolar{
+    width: 1100px;
+    height: 450px;
+    margin: auto;
+}
+.alt4-foto1{
+    display: inline-block;
+  
+    width: 320px;
+    height: 100%;
+    float: left;
+     overflow: hidden;
+}
+.alt4-foto1 img{
+    overflow: hidden;
+    background-size: 100%;
+    width: 320px;
+    transition:all 0.6s;
+}
+.alt4-foto1 img:hover{
+    transition:all 0.6s; overflow: hidden;
+    transform: scale(1.2);
+    filter: brightness(50%);
+}
+.alt4-foto2{
+    margin: 0px 68px;
+    display: inline-block;
+   
+    width: 320px;
+    height: 100%;
+    overflow: hidden;
+}
+.alt4-foto2 img{
+    overflow: hidden;
+    background-size: 100%;
+    width: 320px;
+    transition:all 0.6s;
+}
+.alt4-foto2 img:hover{
+    transition:all 0.6s; overflow: hidden;
+    transform: scale(1.2);
+    filter: brightness(50%);
+}
+
+.alt4-foto3{
+    background-image: url(s3.webp);
+    background-size: 100%;
+    float: right;
+    display: inline-block;
+
+    width: 320px;
+    height: 100%;
+    overflow: hidden;
+}
+.alt4-foto3 img{
+    overflow: hidden;
+    background-size: 100%;
+    width: 320px;
+    transition:all 0.6s;
+    overflow: hidden;
+}
+.alt4-foto3 img:hover{
+    transition:all 0.6s; overflow: hidden;
+    transform: scale(1.2);
+    filter: brightness(50%);
+}
+.alt5{
+    width: 100%;
+    height: 300px;
+    padding: 50px 0px;
+    
+}
+.alt5-ıc{
+    width: 100%;
+    height: 150px;
+   
+    position: relative;
+    top: 150px;
+}
+.alt5-ıc2{
+   width: 200px;
+   height: 50px;
+  
+   margin: auto;
+   text-align: center;
+}
+.alt6{
+    width: 100%;
+    height: 400px;
+}
+.alt6 div{
+    display: inline-block;
+}
+.alt6-sol{
+width: 600px;
+height: 300px;
+}
+.alt6-sag{
+    float: right;
+    width: 600px;
+    height: 300px;
+}
+.alt6-foto{
+    width: 500px;
+    height:100px;
+    float: right;
+}
+.alt6-foto-v2{
+    width: 500px;
+    height:100px;
+    float: left;
+}
+.f{
+    background-image: url(d1.webp);
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.f2{
+    background-image: url(a2.webp);
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.alt6-sol-yazi{
+    padding: 20px 0px;
+    width: 500px;
+    float: right;
+    height: 150px;
+}
+.ut{
+    padding: 20px 0px;
+    width: 500px;
+    float: left;
+    height: 150px;
+}
+.c {
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.alt7 {
+    width: 100%;
+    height: 200px;
+}
+
+.alt7-ıc a {
+    display: flex;
+}
+
+.alt7-ıc {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 94px;
+    padding: 100px 0px;
+}
+
+.alt8 {
+ 
+    width: 100%;
+    height: 400px;
+}
+
+.alt8-ıc {
+    width: 86%;
+    height: 400px;
+  
+    margin-left: 7%;
+    margin-right: 7%;
+}.fötö{
+    width: 350px;
+    height: 200px;
+}
+
+.bor1 {
+  
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+.bor1 img:hover{
+    transition:all 0.6s; overflow: hidden;
+    transform: scale(1.1);
+}
+
+.bor2 {
+  
+    width: 350px;
+    height: 200px;
+    margin: 0px 30px;
+    overflow: hidden;
+   
+}.bor2 img:hover{
+    transition:all 0.6s; overflow: hidden;
+    transform: scale(1.1);
+}
+.bor3 {
+    float: right;
+   
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+.bor3 img:hover{
+    transition:all 0.6s; overflow: hidden;
+    transform: scale(1.1);
+}
+.yaz{
+   
+    width: 350px;
+    height: 100px;
+    margin: 0px px;
+}
+.yaz2{
+ 
+    width: 350px;
+    height: 100px;
+   left: 28px;
+   margin: 0px 31px;
+}
+.yaz3{
+  
+    width: 350px;
+    height: 100px;
+ position: relative;
+ left: 7px;
+
+}
+.yaz a{
+   display: inline-block    ;
+}
+.alt8-alt{
+    width: 100%;
+    height: 100px;
+  
+}
+.alt8-alt div{
+    display:inline-block;
+}
+.alt9{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 94, 0);
+}
+.alt9-ıc{
+    position: relative;
+    top: 20px;
+    width: 80%;
+    height: 100px;
+    background-color: rgb(255, 94, 0);
+   margin-left: 10%;
+   color: white;
+  
+}
+.alt9-ıc h1{
+    font-size: 20px;
+    position: relative;
+     top: 14px;
+    
+}
+.alt9-ıc a{
+     position: relative;
+     top: 20px;
+}
+.alt9-ıc button{
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 35px;
+    float: right;
+    cursor: pointer;
+    font-size: 13px;
+}
+.alt9-txt{
+    float: right;
+    width: 400px;
+    height: 35px;
+    background-color: rgb(255, 94, 0);
+    border: 2px solid white;
+    color:white;
+}
+.fother{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.fother-ıc{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+
+    height: 350px;
+    display: inline-block,;
+    color: white;
+}
+.sss{
+    display: inline-block,;
+}
+.ff1{
+    position: relative;
+    bottom:50px;;
+    right: 40px;
+    width: 250px;
+    height: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 20px 0px ;
+}
+.ff2 h1{
+padding: 10px 0px;
+text-decoration: underline;
+text-decoration-color:orangered;
+}
+
+.ff2{
+    width: 250px;
+    height: 100%;
+  
+}
+.ff3{
+    float: right;
+    width: 200px;
+    height: 100%;
+  
+}
+.ff3 h1{
+    padding: 10px 0px;
+    text-decoration: underline;
+    text-decoration-color:orangered;
+    }
+.ff4{
+    float: right;
+    width: 250px;
+    height: 100%;
+  
+}
+.ff4 h1{
+    padding: 10px 0px;
+    text-decoration: underline;
+    text-decoration-color:orangered;
+    }
+.lenk{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+.lenk:hover{
+    color: #ff5e15;
+    text-decoration:underline;
+}
+.endib{
+    width:100%;
+    height: 50px;
+    color:white;
+    text-align: center;
+    font-size: 16px;
+}
